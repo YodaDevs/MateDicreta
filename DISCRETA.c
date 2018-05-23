@@ -8,6 +8,7 @@ long int primo1, primo2;
 long int textocrip[1000];
 long int inverso;
 
+//achar o d para chave privada usada na descriptação
 long long int querod(long int e){
 
     int i,d=1;
@@ -21,7 +22,7 @@ long long int querod(long int e){
 
 }
 
-
+// formula: resul = a^b % n
 long int expModular(long long int a, long long int b, long long int n){
 
     long int i,resul=1;
@@ -128,7 +129,7 @@ void descriptografar(){
 
  }
 
-
+//euclides para verificação do mdc(e,mult)
 long int euclides(long int e, long int mult){
 
     long int aux;
